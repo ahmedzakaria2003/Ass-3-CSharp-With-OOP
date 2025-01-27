@@ -243,7 +243,7 @@ namespace Ass_3_CSharp_With_OOP
                 #region MyRegion 4
                 //Parent parent = new Parent();
                 //Parent derived = new Derived01(); // static binding [refence not object ]
-                //Derived01 derived02 = new Derived01(); 
+                //Derived01 derived02 = new Derived01();
                 //Parent derived03 = new Derived02();
                 //Derived02 derived04 = new Derived02();
 
