@@ -174,42 +174,42 @@ namespace Ass_3_CSharp_With_OOP
             #endregion
 
             #region MyRegion 6
-        //    class Duration
-        //{
-        //    public int Minutes { get; set; }
-        //    public int Hours{ get; set; }
-        //    public int Seconds { get; set; }
+            class Duration
+            {
+                public int Minutes { get; set; }
+                public int Hours { get; set; }
+                public int Seconds { get; set; }
 
-        //    public override string ToString()
-        //    {
-        //        return $"Hour{Hours} , Minutes{Minutes} , Seconds{Seconds}";
-        //    }
+                public override string ToString()
+                {
+                    return $"Hour{Hours} , Minutes{Minutes} , Seconds{Seconds}";
+                }
 
-        //    // Override Equals() to compare Duration objects
-        //    public override bool Equals(object obj)
-        //    {
-        //        if (obj is Duration other)
-        //        {
-        //            return Hours == other.Hours &&
-        //                   Minutes == other.Minutes &&
-        //                   Seconds == other.Seconds;
-        //        }
-        //        return false;
-        //    }
+                // Override Equals() to compare Duration objects
+                public override bool Equals(object obj)
+                {
+                    if (obj is Duration other)
+                    {
+                        return Hours == other.Hours &&
+                               Minutes == other.Minutes &&
+                               Seconds == other.Seconds;
+                    }
+                    return false;
+                }
 
-        //    public override int GetHashCode()
-        //    {
-        //        // Combine attributes to calculate hash code
-        //        return HashCode.Combine(Hours, Minutes, Seconds);
-        //    }
-        //}
-
-
-
-        #endregion
+                public override int GetHashCode()
+                {
+                    // Combine attributes to calculate hash code
+                    return HashCode.Combine(Hours, Minutes, Seconds);
+                }
+            }
 
 
-        static void Main(string[] args)
+
+            #endregion
+
+
+            static void Main(string[] args)
             {
             #region MyRegion 1
             //Calculator calculator = new Calculator();
