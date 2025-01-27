@@ -6,29 +6,30 @@ namespace Ass_3_CSharp_With_OOP
     internal class Program
     {
         #region MyRegion 1
-        //class Calculator
-        //{
+        class Calculator
+        {
 
-        //    public int Add(int x, int y)
-        //    {
+            public int Add(int x, int y)
+        {
 
-        //        return x + y;
-        //    }
+            return x + y;
+        }
 
-        //    public int Add(int x, int y, int z)
-        //    {
-        //        return x + y + z;
-        //    }
+        public int Add(int x, int y, int z)
+        {
+            return x + y + z;
+        }
 
-        //    public double Add(double x, double y)
-        //    {
-        //        return x + y;
+        public double Add(double x, double y)
+        {
+            return x + y;
 
-        //    }
+        }
 
-        //public override string ToString() {
-        //    return $"result{}";
-        //}
+        public override string ToString()
+        {
+            return $"result{}";
+        }
         #endregion
 
         #region MyRegion 2
