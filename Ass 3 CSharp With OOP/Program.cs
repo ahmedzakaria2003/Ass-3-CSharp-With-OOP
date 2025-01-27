@@ -26,7 +26,7 @@ namespace Ass_3_CSharp_With_OOP
 
             }
 
-          
+
         }
         #endregion
 
@@ -211,54 +211,55 @@ namespace Ass_3_CSharp_With_OOP
 
             static void Main(string[] args)
             {
-            #region MyRegion 1
-            //Calculator calculator = new Calculator();
-            //double result = calculator.Add(1.9, 2.9);
-            //Console.WriteLine(result);
-            #endregion
+                #region MyRegion 1
+                //Calculator calculator = new Calculator();
+                //double result = calculator.Add(1.9, 2.9);
+                //Console.WriteLine(result);
+                #endregion
 
-            #region MyRegion 2
-            //Complex c1 = new Complex { real = 3, imag = 6 };
-            //Complex c2 = new Complex { real = 9, imag = 9 };
-            //Complex c3 = new Complex { real = 3, imag = 6 };
+                #region MyRegion 2
+                //Complex c1 = new Complex { real = 3, imag = 6 };
+                //Complex c2 = new Complex { real = 9, imag = 9 };
+                //Complex c3 = new Complex { real = 3, imag = 6 };
 
-            //c3 = c1 + c2;
-            //Console.WriteLine($"  {c1}");
-            //Console.WriteLine($"  {c2}");
-            //Console.WriteLine($" Result = {c3}");
-            //c3 = c1 - c2;
-            //Console.WriteLine($"  {c1}");
-            //Console.WriteLine($"  {c2}");
-            //Console.WriteLine($" Result = {c3}");
+                //c3 = c1 + c2;
+                //Console.WriteLine($"  {c1}");
+                //Console.WriteLine($"  {c2}");
+                //Console.WriteLine($" Result = {c3}");
+                //c3 = c1 - c2;
+                //Console.WriteLine($"  {c1}");
+                //Console.WriteLine($"  {c2}");
+                //Console.WriteLine($" Result = {c3}");
 
-            #endregion
+                #endregion
 
-            #region MyRegion 3
-            //Employee emp = new Employee();
-            //Manager manager = new Manager();
-            //emp.Work();
-            //manager.Work();
-            #endregion
+                #region MyRegion 3
+                //Employee emp = new Employee();
+                //Manager manager = new Manager();
+                //emp.Work();
+                //manager.Work();
+                #endregion
 
-            #region MyRegion 4
-            //Parent parent = new Parent();
-            //Parent derived = new Derived01(); // static binding [refence not object ]
-            //Derived01 derived02 = new Derived01(); 
-            //Parent derived03 = new Derived02();
-            //Derived02 derived04 = new Derived02();
+                #region MyRegion 4
+                //Parent parent = new Parent();
+                //Parent derived = new Derived01(); // static binding [refence not object ]
+                //Derived01 derived02 = new Derived01(); 
+                //Parent derived03 = new Derived02();
+                //Derived02 derived04 = new Derived02();
 
-            //parent.Display();
-            //derived.Display();
-            //derived02.Display();
-            //derived03.Display();
-            //derived04.Display();
-            //override modifies the method in the derived class to replace the base class version. Polymorphism ensures that the derived class method is called regardless of the reference type.
-            //new hides the base class method and defines a new method in the derived class. Method resolution is based on the reference type(not the actual object type) and happens at compile-time.
+                //parent.Display();
+                //derived.Display();
+                //derived02.Display();
+                //derived03.Display();
+                //derived04.Display();
+                //override modifies the method in the derived class to replace the base class version. Polymorphism ensures that the derived class method is called regardless of the reference type.
+                //new hides the base class method and defines a new method in the derived class. Method resolution is based on the reference type(not the actual object type) and happens at compile-time.
 
-            #endregion
+                #endregion
 
 
 
+            }
         }
     }
-    }
+}
