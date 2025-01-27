@@ -60,57 +60,57 @@ namespace Ass_3_CSharp_With_OOP
         #endregion
 
         #region MyRegion 3
-        //class Complex
-        //{
-        //    private double Real;
+        class Complex
+        {
+            private double Real;
 
-        //    public double real
-        //    {
-        //        get { return Real; }
-        //        set { Real = value; }
-        //    }
+            public double real
+            {
+                get { return Real; }
+                set { Real = value; }
+            }
 
-        //    private double Imag;
+            private double Imag;
 
-        //    public double imag
-        //    {
-        //        get { return Imag; }
-        //        set { Imag = value; }
-        //    }
-
-
+            public double imag
+            {
+                get { return Imag; }
+                set { Imag = value; }
+            }
 
 
-        //    public override string ToString()
-        //    {
-        //        return $"Result= {Real} + {Imag}i  ";
-        //    }
 
 
-        //    public static Complex operator +(Complex c1, Complex c2)
-        //    {
-        //        return new Complex
-        //        {
-
-        //            Real = c1.Real + c2.Real,
-        //            Imag = c1.Imag + c2.Imag
+            public override string ToString()
+            {
+                return $"Result= {Real} + {Imag}i  ";
+            }
 
 
-        //        };
-        //    }
-        //    public static Complex operator -(Complex c1, Complex c2)
-        //    {
-        //        return new Complex
-        //        {
+            public static Complex operator +(Complex c1, Complex c2)
+            {
+                return new Complex
+                {
 
-        //            Real = c1.Real - c2.Real,
-        //            Imag = c1.Imag - c2.Imag
+                    Real = c1.Real + c2.Real,
+                    Imag = c1.Imag + c2.Imag
 
 
-        //        };
-        //    }
+                };
+            }
+            public static Complex operator -(Complex c1, Complex c2)
+            {
+                return new Complex
+                {
 
-        //}
+                    Real = c1.Real - c2.Real,
+                    Imag = c1.Imag - c2.Imag
+
+
+                };
+            }
+
+        }
         #endregion
 
         #region MyRegion 4
