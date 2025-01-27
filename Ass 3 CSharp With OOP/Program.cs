@@ -10,25 +10,23 @@ namespace Ass_3_CSharp_With_OOP
         {
 
             public int Add(int x, int y)
-        {
+            {
 
-            return x + y;
-        }
+                return x + y;
+            }
 
-        public int Add(int x, int y, int z)
-        {
-            return x + y + z;
-        }
+            public int Add(int x, int y, int z)
+            {
+                return x + y + z;
+            }
 
-        public double Add(double x, double y)
-        {
-            return x + y;
+            public double Add(double x, double y)
+            {
+                return x + y;
 
-        }
+            }
 
-        public override string ToString()
-        {
-            return $"result{}";
+          
         }
         #endregion
 
