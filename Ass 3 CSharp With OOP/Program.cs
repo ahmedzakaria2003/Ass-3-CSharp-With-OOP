@@ -113,30 +113,30 @@ namespace Ass_3_CSharp_With_OOP
         }
         #endregion
 
-        //#region MyRegion 4
-        //class Employee
-        //{
-        //    public  void Work()
-        //    {
-        //        Console.WriteLine("Employee is working");
+        #region MyRegion 4
+        class Employee
+        {
+            public void Work()
+            {
+                Console.WriteLine("Employee is working");
 
-        //    }
+            }
 
-        //}
+        }
 
-        //class Manager : Employee
-        //{
+        class Manager : Employee
+        {
 
-        //    public new void Work()
-        //    {
-        //        base.Work();
-        //        Console.WriteLine("Manager is managing");
-
-
-        //    }
+            public new void Work()
+            {
+                base.Work();
+                Console.WriteLine("Manager is managing");
 
 
-        //}
+            }
+
+
+        }
 
         #endregion
 
