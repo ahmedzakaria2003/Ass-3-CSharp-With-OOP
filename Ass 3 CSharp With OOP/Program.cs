@@ -218,18 +218,18 @@ namespace Ass_3_CSharp_With_OOP
                 #endregion
 
                 #region MyRegion 2
-                //Complex c1 = new Complex { real = 3, imag = 6 };
-                //Complex c2 = new Complex { real = 9, imag = 9 };
-                //Complex c3 = new Complex { real = 3, imag = 6 };
+                Complex c1 = new Complex { real = 3, imag = 6 };
+                Complex c2 = new Complex { real = 9, imag = 9 };
+                Complex c3 = new Complex { real = 3, imag = 6 };
 
-                //c3 = c1 + c2;
-                //Console.WriteLine($"  {c1}");
-                //Console.WriteLine($"  {c2}");
-                //Console.WriteLine($" Result = {c3}");
-                //c3 = c1 - c2;
-                //Console.WriteLine($"  {c1}");
-                //Console.WriteLine($"  {c2}");
-                //Console.WriteLine($" Result = {c3}");
+                c3 = c1 + c2;
+                Console.WriteLine($"  {c1}");
+                Console.WriteLine($"  {c2}");
+                Console.WriteLine($" Result = {c3}");
+                c3 = c1 - c2;
+                Console.WriteLine($"  {c1}");
+                Console.WriteLine($"  {c2}");
+                Console.WriteLine($" Result = {c3}");
 
                 #endregion
 
