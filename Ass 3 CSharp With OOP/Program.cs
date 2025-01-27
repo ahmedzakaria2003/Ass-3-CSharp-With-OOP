@@ -141,36 +141,36 @@ namespace Ass_3_CSharp_With_OOP
         #endregion
 
         #region MyRegion 5
-        class Parent
-        {
-            public virtual void Display()
-            {
-                Console.WriteLine("Message from BaseClass");
-            }
+        //class Parent
+        //{
+        //    public virtual void Display()
+        //    {
+        //        Console.WriteLine("Message from BaseClass");
+        //    }
 
-        }
+        //}
 
-        class Derived01 : Parent
-        {
+        //class Derived01 : Parent
+        //{
 
-            public override void Display()
-            {
-                Console.WriteLine("Message from Derived01Class");
-            }
-
-
-        }
-
-        class Derived02 : Parent
-        {
-
-            public new void Display()
-            {
-                Console.WriteLine("Message from Derived02Class");
-            }
+        //    public override void Display()
+        //    {
+        //        Console.WriteLine("Message from Derived01Class");
+        //    }
 
 
-        }
+        ////}
+
+        //class Derived02 : Parent
+        //{
+
+        //    public new void Display()
+        //    {
+        //        Console.WriteLine("Message from Derived02Class");
+        //    }
+
+
+        //}
         #endregion
 
         #region MyRegion 6
