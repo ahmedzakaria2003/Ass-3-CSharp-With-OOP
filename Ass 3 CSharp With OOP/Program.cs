@@ -31,32 +31,32 @@ namespace Ass_3_CSharp_With_OOP
         #endregion
 
         #region MyRegion 2
-        //class Rectangle
-        //{
-        //    public int Width { get; set; }
-        //    public int Height { get; set; }
+        class Rectangle
+        {
+            public int Width { get; set; }
+            public int Height { get; set; }
 
-        //    public Rectangle()
-        //    {
-        //        this.Width = 0;
-        //        this.Height = 0;
+            public Rectangle()
+            {
+                this.Width = 0;
+                this.Height = 0;
 
-        //    }
-        //    public Rectangle(int width, int height)
-        //    {
-        //        this.Width = width;
-        //        this.Height = height;
+            }
+            public Rectangle(int width, int height)
+            {
+                this.Width = width;
+                this.Height = height;
 
-        //    }
+            }
 
-        //    public Rectangle(int size)
-        //    {
-        //        Width = size;
-        //        Height = size;
+            public Rectangle(int size)
+            {
+                Width = size;
+                Height = size;
 
-        //    }
+            }
 
-        //}
+        }
         #endregion
 
         #region MyRegion 3
